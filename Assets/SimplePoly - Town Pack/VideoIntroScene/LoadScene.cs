@@ -14,7 +14,7 @@ public class LoadScene : MonoBehaviour
     }
 
     void EndReached(UnityEngine.Video.VideoPlayer vp)
-     {
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-     }
+    }
 }
